@@ -3,70 +3,88 @@ font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 color: #282425;
 line-height: 1.5;
-margin: 0;
-
+padding: 80px 15%;
+margin: 0px;
 }
 
-section{
-    padding: 50px 15%;
-    overflow: auto;
-}
 
 h1 {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-}
-
-
-h2, h3 {font-size: 25px;}
-h2 {text-align: center;
-}
-
-.Profil {
-    width: 350px;
-    border-radius: 30px 0 30px 0;
-    float:left;
-    padding-left: 20%;
-}
-
-.container img{
-     opacity: 0.3;
-}
-
-.center{
-    position:absolute;
-    top: 50%;
-    width: 100%;
-    text-align:center;
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 0px;
 }
 
-.skills{
+
+h2, 
+h2,
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.Profil{
+    width: 250px;
+    border-radius: 0 30% 0 30%;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.Predstaveni{
+    padding: 100px 30px;
+    background-image: url(Fotky/Paw_line.png);
+    background-repeat:round;
+    opacity: 0.3;
+    background-size: cover;
+}
+
+.Skills{
     background-color: #EBE9E6;
-}
-
-.Paw{
-    Width: 1.8%;
-    float:left;
+    padding: 5px 0;
+    text-align: center;
 }
 
 .Pejsci{
-    background-color: #645E51;
-    color: #EBE9E6;
+    background-color: #6F6756;
+    color:white;
+    overflow: auto;
+    padding: 20px 130px;
 }
 
 .Pejsci img{
-    width: 250px;
+    width: 170px;
+    height: 150px;
     border-radius: 50%;
     border: 4px solid white;
+    margin: 10px;
+    float: left;
 }
-.Chrtik img{
+
+.Pes1 img{
+ float: left;
+}
+
+.Pes2 img{
     float: right;
+}
+
+.Pes3 img{
+    float: left;
+    margin: 20px;
+}
+
+.Kontakt {
+    background-color: #EBE9E6;
+    padding: 20px 0;
 }
 
 .Kontakt,
 .Paticka{
-    text-align: center;
-}
+    text-align: center;}
